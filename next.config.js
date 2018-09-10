@@ -38,8 +38,6 @@ module.exports = {
 				enforce: 'pre',
 				loader: 'eslint-loader',
 				options: {
-					emitError: true,
-					emitWarning: true,
 					failOnError: true,
 					// eslint options (if necessary)
 				},
